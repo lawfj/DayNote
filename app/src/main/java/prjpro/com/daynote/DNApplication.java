@@ -20,6 +20,7 @@ public class DNApplication extends Application {
 
     @Override
     public void onTerminate() {
+        ActivityManager.getScreenManager().popAllActivity();
         super.onTerminate();
     }
 }

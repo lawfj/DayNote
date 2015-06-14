@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">DayNote</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="dialog_title_exit">下次再写日记 ？</string>
+    <string name="dialog_bt_yes">好的</string>
+    <string name="dialog_bt_no">点错了</string>
 </resources>

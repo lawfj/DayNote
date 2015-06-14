@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dialog -->
+    <color name="dialog_title_color">#e9e4e5</color>
+    <color name="dialog_title_txt_color">#63C2FF</color>
+    <color name="dialog_split_color">#2AACFF</color>
+    <color name="dialog_content_txt_color">#AAABAF</color>
+    <color name="dialog_confim_txt_color">#FFFFFF</color>
+    <color name="dialog_concel_txt_color">#8a8b93</color>
+
+    <!-- NoteBg-->
+    <color name="bg_note_pink">#f8d5d6</color>
+
+</resources>
