@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <ImageView
+        android:id="@+id/iv_bk"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_selector_all"
+        android:orientation="vertical"
+        android:padding="3dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="0dip"
+                android:layout_height="45dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/layout_selector_all"
+                android:gravity="center"
+                android:padding="2dip"
+                android:password="true"
+                android:singleLine="true" />
+
+            <FrameLayout
+                android:id="@+id/fl_lock_layout"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_gravity="center"
+                android:background="@drawable/layout_selector_all">
+
+                <ImageView
+                    android:id="@+id/iv_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_lock" />
+
+                <ImageView
+                    android:id="@+id/iv_forget_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:src="@drawable/ic_forget_pass" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
